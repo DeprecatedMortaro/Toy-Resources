@@ -18,7 +18,7 @@ module ToyResources::Nested
   end
 
   module ClassMethods
-    mattr_accessor :parents_symbols
+    attr_accessor :parents_symbols
   end
 
 end
